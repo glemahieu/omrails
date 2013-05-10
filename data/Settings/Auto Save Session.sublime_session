@@ -144,34 +144,29 @@
 			"buffers":
 			[
 				{
-					"file": "/C/sites/code/omrails/app/models/view.rb",
+					"file": "/C/sites/code/omrails/app/views/pins/index.html.erb",
 					"settings":
 					{
-						"buffer_size": 467,
+						"buffer_size": 265,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/C/sites/code/omrails/app/views/devise/registrations/new.html.erb",
+					"contents": "<tr>\n  <td><%= pin.description %></td>\n  <td><%= link_to 'Show', pin %></td>\n  <td><%= link_to 'Edit', edit_pin_path(pin) %></td>\n  <td><%= link_to 'Destroy', pin, method: :delete, data: { confirm: 'Are you sure?' } %></td>\n</tr>",
+					"file": "/C/sites/code/omrails/app/views/pins/_pin.html.erb",
+					"file_size": 254,
+					"file_write_time": 130126241781611822,
 					"settings":
 					{
-						"buffer_size": 446,
-						"line_ending": "Unix"
+						"buffer_size": 229,
+						"line_ending": "Windows"
 					}
 				},
 				{
-					"file": "/C/sites/code/omrails/app/views/devise/registrations/edit.html.erb",
+					"file": "/C/sites/code/omrails/app/models/pin.rb",
 					"settings":
 					{
-						"buffer_size": 801,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/C/sites/code/omrails/app/models/user.rb",
-					"settings":
-					{
-						"buffer_size": 474,
+						"buffer_size": 108,
 						"line_ending": "Unix"
 					}
 				}
@@ -200,11 +195,15 @@
 			},
 			"file_history":
 			[
+				"/C/sites/code/omrails/app/views/pins/_form.html.erb",
+				"/C/sites/code/omrails/app/views/pins/show.html.erb",
+				"/C/sites/code/omrails/app/models/view.rb",
+				"/C/sites/code/omrails/app/views/devise/registrations/new.html.erb",
+				"/C/sites/code/omrails/app/views/devise/registrations/edit.html.erb",
+				"/C/sites/code/omrails/app/models/user.rb",
 				"/C/sites/code/omrails/app/views/layouts/_header.html.erb",
 				"/C/sites/code/omrails/app/views/pages/home.html.erb",
 				"/C/sites/code/omrails/app/views/devise/sessions/new.html.erb",
-				"/C/sites/code/omrails/app/views/devise/registrations/new.html.erb",
-				"/C/sites/code/omrails/app/views/devise/registrations/edit.html.erb",
 				"/C/sites/code/omrails/config/application.rb",
 				"/C/sites/code/omrails/app/views/layouts/application.html.erb",
 				"/C/sites/code/omrails/Data/Packages/User/Preferences.sublime-settings",
@@ -258,30 +257,32 @@
 			"groups":
 			[
 				{
-					"selected": 3,
+					"selected": 2,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/C/sites/code/omrails/app/models/view.rb",
+							"file": "/C/sites/code/omrails/app/views/pins/index.html.erb",
 							"settings":
 							{
-								"buffer_size": 467,
+								"buffer_size": 265,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										428,
-										428
+										198,
+										198
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Ruby/Ruby.tmLanguage"
+									"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
 								},
-								"translation.x": 220.0,
+								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
@@ -289,18 +290,18 @@
 						},
 						{
 							"buffer": 1,
-							"file": "/C/sites/code/omrails/app/views/devise/registrations/new.html.erb",
+							"file": "/C/sites/code/omrails/app/views/pins/_pin.html.erb",
 							"settings":
 							{
-								"buffer_size": 446,
+								"buffer_size": 229,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										210,
-										210
+										229,
+										229
 									]
 								],
 								"settings":
@@ -315,44 +316,18 @@
 						},
 						{
 							"buffer": 2,
-							"file": "/C/sites/code/omrails/app/views/devise/registrations/edit.html.erb",
+							"file": "/C/sites/code/omrails/app/models/pin.rb",
 							"settings":
 							{
-								"buffer_size": 801,
+								"buffer_size": 108,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										261,
-										261
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/C/sites/code/omrails/app/models/user.rb",
-							"settings":
-							{
-								"buffer_size": 474,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										291,
-										291
+										74,
+										74
 									]
 								],
 								"settings":
@@ -399,7 +374,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,0,1,-1,-1,-1,-1,528,813,-10,1469",
+			"position": "0,0,1,-32000,-32000,-1,-1,599,809,61,1465",
 			"replace":
 			{
 				"height": 0.0
@@ -429,7 +404,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 171.0,
 			"status_bar_visible": true,
 			"window_id": 2,
 			"workspace_name": ""

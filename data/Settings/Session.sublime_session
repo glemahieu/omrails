@@ -143,38 +143,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/C/sites/code/omrails/app/models/view.rb",
-					"settings":
-					{
-						"buffer_size": 467,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/C/sites/code/omrails/app/views/devise/registrations/new.html.erb",
-					"settings":
-					{
-						"buffer_size": 446,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/C/sites/code/omrails/app/views/devise/registrations/edit.html.erb",
-					"settings":
-					{
-						"buffer_size": 801,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/C/sites/code/omrails/app/models/user.rb",
-					"settings":
-					{
-						"buffer_size": 474,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"command_palette":
@@ -200,11 +168,13 @@
 			},
 			"file_history":
 			[
+				"/C/sites/code/omrails/app/models/view.rb",
+				"/C/sites/code/omrails/app/views/devise/registrations/new.html.erb",
+				"/C/sites/code/omrails/app/views/devise/registrations/edit.html.erb",
+				"/C/sites/code/omrails/app/models/user.rb",
 				"/C/sites/code/omrails/app/views/layouts/_header.html.erb",
 				"/C/sites/code/omrails/app/views/pages/home.html.erb",
 				"/C/sites/code/omrails/app/views/devise/sessions/new.html.erb",
-				"/C/sites/code/omrails/app/views/devise/registrations/new.html.erb",
-				"/C/sites/code/omrails/app/views/devise/registrations/edit.html.erb",
 				"/C/sites/code/omrails/config/application.rb",
 				"/C/sites/code/omrails/app/views/layouts/application.html.erb",
 				"/C/sites/code/omrails/Data/Packages/User/Preferences.sublime-settings",
@@ -258,113 +228,8 @@
 			"groups":
 			[
 				{
-					"selected": 3,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/C/sites/code/omrails/app/models/view.rb",
-							"settings":
-							{
-								"buffer_size": 467,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										428,
-										428
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Ruby/Ruby.tmLanguage"
-								},
-								"translation.x": 220.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/C/sites/code/omrails/app/views/devise/registrations/new.html.erb",
-							"settings":
-							{
-								"buffer_size": 446,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										210,
-										210
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/C/sites/code/omrails/app/views/devise/registrations/edit.html.erb",
-							"settings":
-							{
-								"buffer_size": 801,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										261,
-										261
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/C/sites/code/omrails/app/models/user.rb",
-							"settings":
-							{
-								"buffer_size": 474,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										435,
-										435
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Ruby/Ruby.tmLanguage"
-								},
-								"translation.x": 290.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -399,7 +264,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,0,1,-32000,-32000,-1,-1,528,813,-10,1469",
+			"position": "0,0,1,-32000,-32000,-1,-1,599,809,61,1465",
 			"replace":
 			{
 				"height": 0.0
